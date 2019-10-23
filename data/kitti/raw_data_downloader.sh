@@ -1,9 +1,7 @@
 #!/bin/bash
 
 files=(2011_09_26_calib.zip
-2011_09_26_drive_0001
-2011_09_26_drive_0002
-2011_09_26_drive_0005)
+2011_09_26_drive_0001)
 
 for i in ${files[@]}; do
         if [ ${i:(-3)} != "zip" ]
